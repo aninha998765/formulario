@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(80deg, rgb(199, 114, 214) , rgb(84, 5, 101));
+        }
+        form   {
+            background-color: linear-gradient(80deg, rgb(178, 203, 146) , rgb(119, 146, 91));
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 70px;
+            border-radius: 15px;
+            color: rgb(0, 0, 0);
+        }
+        input{
+            border-radius: 5px;
+        }
+        textarea{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://api.sheetmonkey.io/form/rUuPNqQU2mCyGUuwc4iPx6" method="post">
+
+        <h1><font color=Black>Formulario de interação</font></h1>
+        
+        <p>
+            <label>Digite seu nome</label>
+            <input placeholder="Digite aqui" type="text" required="required" value=""name="nome">
+        </p>
+        <p>
+            <label>Digite on seu endereço</label>
+            <input placeholder="Digite aqui" type="text" required="required" value="" name="rua" >
+        </p>
+        <p>
+            <label>Digite o bairro</label>
+            <input placeholder="Digite aqui" type="text" required="required" value="" name="Bairro">
+        </p>
+        <p>
+            <label>Digite a cidade</label>
+            <input placeholder="Digite aqui" type="text" required="required" value=""name="Cidade">
+        </p>
+        <p>
+            <textarea rows="10" cols="100" name="mensagem inserida pelo usuario" required="required" placeholder="Digite até 100 caracteres" maxlength="100"></textarea>
+        </p>
+        <p>
+            <!---- Checkbox -->
+            <label>Escolha o(s) modelos(s) de trabalho:</label><br>
+            <ol>
+                <li><input type="checkbox" value="Opç1" name="vlr_presencial">Presencial</li>
+                <li><input type="checkbox" value="Opç2" name="vlr_remoto">Remoto</li>
+                <li><input type="checkbox" value="Opç3" name="vlr_hibrido">Hibrido</li>
+            </ol>
+        </p>
+        <input type="submit" value="submit">
+        <input type="reset" value="Delete"> 
+    
+    </form>
+     
+</body>
+</html>
